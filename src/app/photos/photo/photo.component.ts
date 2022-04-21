@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./photo.component.css']
 })
 export class PhotoComponent {
-  title = 'hsob-service';
-  @Input() description='';
-  @Input() url='' 
+  @Input() description="";
+  @Input() url=""
 }

@@ -1,7 +1,11 @@
-<h1>{{ title }}</h1>
 <!-- para fazer o data binding coloca a propriedade que vai recebe o binding entre colchetes 
 One way data binding , é uni direcional-->
 
-<app-photo *ngFor="let photo of photosData" [url]="photo.url" [description]="photo.description"></app-photo>
+<app-photo 
+*ngFor="let photo of photosData" 
+[url]="photo.url" 
+[description]="photo.description"
+>
+</app-photo>
 
 
